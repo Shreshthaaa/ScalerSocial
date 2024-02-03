@@ -1,0 +1,65 @@
+*{
+    border: 0;
+    padding: 0;
+}
+.navBar{
+    border-bottom: 1px solid rgba(214, 222, 229, 1);
+    width: Fixed (1,280px);
+    height: Hug (66px);
+    padding: 16px, 64px, 16px, 64px;
+    border: 0px, 0px, 1px, 0px;
+    justify-content: space-between;
+}
+.scaler-logo{
+    padding-left: 50px;
+    padding-right: 1100px;
+    width: 117px;
+    padding: 0px, 0px, 0px, 0px;
+    height: 34px;
+}
+.social-logo{
+    width: Hug (234px);
+    height: Hug (29px);
+    gap: 12px;
+}
+.body{
+    display: flex;
+}
+.left{
+    background-color: rgba(236, 248, 255, 0.4);
+    width: 50vw;
+    height: 100vh;
+    padding: 184px, 32px, 0px, 32px;
+    gap: 16px;
+    align-items: center;
+}
+.tweet-card{
+    display: flex;
+    width: Fixed (521px);
+    height: Hug (248px);
+    padding: 24px;
+    border: 3px;
+    border-radius: 8px;
+    border-color: black;
+    gap: 20px;
+    align-self: center;
+}
+.post-button{
+    display: flex;
+}
+.post{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 250px;
+}
+.counter{
+    margin-left: 20px;
+}
+.tweet-card2{
+    display: flex;
+}
