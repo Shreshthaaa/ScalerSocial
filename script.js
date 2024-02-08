@@ -3,7 +3,9 @@ const btn = document.getElementById('heart');
 btn.addEventListener('click', function onClick(event) {
     event.target.style.backgroundColor = 'red';
 });
-
+btn.addEventListener('dblclick', function onClick(event) {
+    event.target.style.backgroundColor = 'white';
+});
 const paragraph = document.getElementById("text");
 const edit_button = document.getElementById("edit-button");
 
